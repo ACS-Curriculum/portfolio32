@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigonometry</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+  <!-- code highlighting -->
+  <script src="../js/srcFiles/prism.js"></script>
+  <link rel="stylesheet" href="../css/prism.css" type="text/css">
+  <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="../img/struggle.jpg" class="bannerimg" alt="This is the banner">
+
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Teaching
+              <span class="arrow">&#x1f601;</span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="#">CS Classes
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="#">AP-CSP <span class="arrow">&#x25B6;</span>
+                    </a>
+                    <ul class="submenu-3">
+                      <li>
+                        <a href="#">ACPSP-Units <span class="arrow">&#x25B6;</span></a>
+                        <ul class="submenu-4">
+                          <li>
+                            <a href="#">Digital-Information</a>
+                          </li>
+                          <li>
+                            <a href="#">Internet</a>
+                          </li>
+                          <li>
+                            <a href="#">Programming</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Algorithms</a>
+                          </li>
+                          <li>
+                            <a href="#">DataAnalysis</a>
+                          </li>
+                          <li>
+                            <a href="#">Simulations</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Data Security</a>
+                          </li>
+                          <li>
+                            <a href="#">Innovations</a>
+                          </li>
+                          <li>
+                            <a href="#">Holiday Card</a>
+                          </li>
+                          <li>
+                            <a href="#">CreateTasks <span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Create Tasks</a>
+
+                              </li>
+                              <li>
+                                <a href="#">Six</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Five</a>
+                              </li>
+                              <li>
+                                <a href="#">Four</a>
+                              </li>
+
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Final Projects<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">One</a>
+                              </li>
+                              <li>
+                                <a href="#">Two</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Three</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Prep<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Global Interest</a>
+                              </li>
+                              <li>
+                                <a href="#">CreateTask Prep</a>
+                              </li>
+                              <li>
+                                <a href="#">Exam Prep</a>
+                              </li>
+                            </ul>
+                          </li>
+
+
+
+
+                          <li>
+                            <a href="#">Resources<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Khan</a>
+                              </li>
+                              <li>
+                                <a href="#">Happy Coding</a>
+                              </li>
+                              <li>
+                                <a href="#">CSForAll</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Materials</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <li>
+                    <a href="#">AP-CSA <span class="arrow">&#x25B6;</span>
+                    </a>
+                    <ul class="submenu-3">
+                      <li>
+                        <a href="#">ACPSA-Units <span class="arrow">&#x25B6;</span></a>
+                        <ul class="submenu-4">
+                          <li>
+                            <a href="#">Primitive Types</a>
+                          </li>
+                          <li>
+                            <a href="#">Objects</a>
+                          </li>
+                          <li>
+                            <a href="#">If Statements</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Iteration/Loops</a>
+                          </li>
+                          <li>
+                            <a href="#">Classes</a>
+                          </li>
+                          <li>
+                            <a href="#">Arrays</a>
+                          </li>
+
+                          <li>
+                            <a href="#">ArrayLists</a>
+                          </li>
+                          <li>
+                            <a href="#">2DArrays</a>
+                          </li>
+                          <li>
+                            <a href="#">Inheritance</a>
+                          </li>
+                          <li>
+                            <a href="#">Recursion</a>
+                          </li>
+                          <li>
+                            <a href="#">Holiday Cards <span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Holiday Cards</a>
+                              </li>
+                              <li>
+                                <a href="#">One</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Two</a>
+                              </li>
+                              <li>
+                                <a href="#">Three</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Prep<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Released Exams</a>
+                              </li>
+                              <li>
+                                <a href="#">FRQ</a>
+                              </li>
+                              <li>
+                                <a href="#">Tips</a>
+                              </li>
+                              <li>
+                                <a href="#">Final Projects</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Resources<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">AP-Classroom</a>
+
+                              </li>
+                              <li>
+                                <a href="#">Runestone</a>
+                              </li>
+
+                              <li>
+                                <a href="#">CodingBat</a>
+                              </li>
+
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Materials</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">ACS/Data-Structures <span class="arrow">&#x25B6;</span>
+                    </a>
+                    <ul class="submenu-3">
+                      <li>
+                        <a href="#">ACS-Units <span class="arrow">&#x25B6;</span></a>
+                        <ul class="submenu-4">
+                          <li>
+                            <a href="#">Pixels</a>
+                          </li>
+                          <li>
+                            <a href="#">HTML/CSS</a>
+                          </li>
+                          <li>
+                            <a href="#">Motion/p5js</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Lightning</a>
+                          </li>
+                          <li>
+                            <a href="#">Dice/Objects</a>
+                          </li>
+                          <li>
+                            <a href="#">Chemotaxis/Arrays</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Starfield/Inheritance</a>
+                          </li>
+                          <li>
+                            <a href="#">Strings/RegEx</a>
+                          </li>
+                          <li>
+                            <a href="#">Readability</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Holiday Card</a>
+                          </li>
+                          <li>
+                            <a href="#">BREAK <span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">BREAK</a>
+
+                              </li>
+                              <li>
+                                <a href="#">Collections</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Interfaces/Iterators</a>
+                              </li>
+                              <li>
+                                <a href="#">NLP:MovieReview</a>
+                              </li>
+                              <li>
+                                <a href="#">Sets</a>
+                              </li>
+
+                              <li>
+                                <a href="#">BigO</a>
+                              </li>
+                              <li>
+                                <a href="#">Maps</a>
+                              </li>
+                              <li>
+                                <a href="#">Markov Chains</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Data: Cemetery</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Recursion</a>
+                              </li>
+                              <li>
+                                <a href="#">Stacks/Queues</a>
+                              </li>
+                              <li>
+                                <a href="#">Heaps</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Linked Lists</a>
+                              </li>
+                              <li>
+                                <a href="#">Trees</a>
+                              </li>
+                              <li>
+                                <a href="#">Graphs</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Materials</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Language Arts
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">American Lit</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Journalism</a>
+                  </li>
+                  <li>
+                    <a href="#">Film</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+
+
+              <li>
+                <a href="#">Resources
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+
+                  <li>
+                    <a href="https://p5js.org/reference/">P5 API</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=HerCR8bw_GE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA">P5Videotutorials</a>
+                  </li>
+                  <li>
+                    <a href="https://happycoding.io/">Happy Coding</a>
+                  </li>
+                  <li>
+                    <a href="https://processing.org/">Processing</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Projects
+              <span class="arrow">&#x25BC;</span>
+            </a>
+            <ul class="submenu">
+
+              <li>
+                <a href="#">Things
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="page1.html">Circles-1</a>
+                  </li>
+                  <li>
+                    <a href="circles2.html">Circles-2</a>
+                  </li>
+                  <li>
+                    <a href="page2.html">Games</a>
+                  </li>
+                  <li>
+                    <a href="page3.html">Lines/Curves</a>
+                  </li>
+                  <li>
+                    <a href="page4.html">Recursion</a>
+                  </li>
+                  <li>
+                    <a href="#">2DArrays/Matricies</a>
+                  </li>
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="#">Data Structures
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="#">Sets</a>
+                  </li>
+                  <li>
+                    <a href="#">Maps</a>
+                  </li>
+                  <li>
+                    <a href="stacks.html">Stacks</a>
+                  </li>
+                  <li>
+                    <a href="#">Queues/Priority-Queues</a>
+                  </li>
+                  <li>
+                    <a href="linkedlists.html">Linked Lists</a>
+                  </li>
+                  <li>
+                    <a href="#">Trees</a>
+                  </li>
+                  <li>
+                    <a href="#">Heaps</a>
+                  </li>
+                  <li>
+                    <a href="#">Graphs</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Data
+              <span class="arrow">&#x1f601;</span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Data Science</a>
+              </li>
+              <li>
+                <a href="#">Data Structures</a>
+              </li>
+
+
+
+
+
+              <li>
+                <a href="#">Data Viz
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="#">Graphs</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Charts</a>
+                  </li>
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Data Journalism</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Math
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">GeoDaily</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Trigonometry</a>
+                  </li>
+                  <li>
+                    <a href="#">Calculus</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <li>
+            <a href="#">Generative Art
+              <span class="arrow">&#x1f601;</span>
+            </a>
+            <ul class="submenu">
+
+              <li>
+                <a href="#">Ideas
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Shape</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Color</a>
+                  </li>
+                  <li>
+                    <a href="#">Typography</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://observablehq.com/collection/@anjana/functional-javascript-first-steps">Functional</a>
+                  </li>
+
+
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="#">Algorithms
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Patterns</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Matricies</a>
+                  </li>
+                  <li>
+                    <a href="#">Change</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Artists
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Sol LeWitt</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Josef Albers</a>
+                  </li>
+                  <li>
+                    <a href="#">Piet Mondrian</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="#">Resources
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">GeoDaily</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Trigonometry</a>
+                  </li>
+                  <li>
+                    <a href="#">Calculus</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+
+
+          <li>
+            <a href="#">About Me<span class="arrow">&#x1f601;</span></a>
+
+
+            <ul class="submenu">
+              <li>
+                <a href="#">Swim</a>
+              </li>
+              <li>
+                <a href="#">Bike</a>
+              </li>
+              <li>
+                <a href="https://observablehq.com/collection/@anjana/functional-javascript-first-steps">Bikes</a>
+              </li>
+              <li>
+                <a href="https://computiful.org/foreword/">Read</a>
+              </li>
+
+              <li>
+                <a href="#"> <span class="arrow">&#x25C0;</span>Photography
+
+                </a>
+                <ul class="submenu-left">
+                  <li>
+                    <a href="#">Glacier</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Tucson</a>
+                  </li>
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Birds</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <section class="wrapper">
+      <div class="code">
+        <pre>
+    <code class="language-javascript">
+
+      var x = 0;
+
+      function setup() {
+        createCanvas(450, 450);
+      }
+      
+      function draw() {
+        background(220);
+        translate(0, height / 4);
+        noStroke();
+        fill(255, 0, 0);
+        rect(x, 0, 200, 200);
+        x++;
+        x = x % width;
+      }
+   </code>
+      </pre>
+      </div>
+
+      <div class="product">
+        <div id="gamesone">
+          <script type="module" src="../js/page2/main.js"></script>
+        </div>
+      </div>
+      <div class="reflection">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </div>
+
+    </section>
+
+    <section class="wrapper">
+      <div class="code">
+        <pre>
+  <code class="language-javascript">
+    
+    var p = [];
+    var rad;
+    var diam;
+    
+    function setup() {
+      createCanvas(400, 400);
+      ellipseMode(CENTER);
+      diam = 40;
+      rad = diam / 2;
+    
+      for (var i = 0; i < 5; i++) {
+        p.push(new Paper("📝", "paper"));
+      }
+      for (var i = 5; i < 10; i++) {
+        p.push(new Rock("🪨", "rock"));
+      }
+      for (var i = 10; i < 15; i++) {
+        p.push(new Scissors("✂️", "scissors"));
+      }
+    }
+    
+    function draw() {
+      background(0, 0, 139);
+      for (var i = p.length - 1; i >= 0; i--) {
+        p[i].move();
+        p[i].show();
+      }
+      testRockPaper();
+      if (allTheSame(p) == true) {
+        textSize(30);
+        textAlign(CENTER);
+        text("You're a winner,      !", width / 2, height / 2);
+      }
+      if (twoTheSame(p)) {
+        textSize(30);
+        textAlign(CENTER);
+        text("You're a winner,      !", width / 2, height / 2);
+        var git = createCounter();
+        git();
+      }
+    }
+    
+    function createCounter() {
+      let counter = 0;
+      setInterval(increment, 1000);
+      function increment() {
+        counter++;
+        if (counter == 2) {
+          noLoop();
+          console.log("git er done");
+        }
+      }
+      return increment;
+    }
+    
+    function testRockPaper() {
+      for (var i = p.length - 1; i >= 0; i--) {
+        for (var j = p.length - 1; j >= 0; j--) {
+          if (p[i].id != p[j].id && p[i].collide(p[j]) === true) {
+            textAlign(CENTER);
+            text("OH SNAP!", width / 2, height / 2);
+    
+            if (p[i].id != p[j].id && p[i].whatKind(p[j]) === "paper") {
+              p[i].id = "paper";
+              p[j].id = "paper";
+              p[i].t = "📝";
+              p[j].t = "📝";
+            }
+    
+            if (p[i].id != p[j].id && p[i].whatKind(p[j]) === "rock") {
+              p[i].id = "rock";
+              p[j].id = "rock";
+              p[i].t = "🪨";
+              p[j].t = "🪨";
+            }
+    
+            if (p[i].id != p[j].id && p[i].whatKind(p[j]) === "scissors") {
+              p[i].id = "scissors";
+              p[j].id = "scissors";
+              p[i].t = "✂️";
+              p[j].t = "✂️";
+            }
+          }
+        }
+      }
+    }
+    function allTheSame(p) {
+      var first = p[0].id;
+      return p.every(function (element) {
+        return element.id === first;
+      });
+    }
+    function twoTheSame(p) {
+      var roc = 0;
+      var pape = 0;
+      var scis = 0;
+      for (var i = 0; i < p.length; i++) {
+        if (p[i].id == "rock") {
+          roc += 1;
+        }
+        if (p[i].id == "paper") {
+          pape = pape + 1;
+        }
+        if (p[i].id == "scissors") {
+          scis = scis + 1;
+        }
+      }
+      if (pape > 1 && roc > 1 && scis < 1) {
+        text("📝", 300, 200);
+        return true;
+      } else if (pape > 1 && scis > 1 && roc < 1) {
+        text("✂️", 300, 200);
+        return true;
+      } else if (scis > 1 && roc > 1 && pape < 1) {
+        text("🪨", 300, 200);
+        return true;
+      }
+    }
+    class Player {
+      constructor(t, id) {
+        this.x = random(380);
+        this.y = random(380);
+        this.t = t;
+        this.nx = random(1, -1);
+        this.ny = random(1, -1);
+        this.r = 20;
+        this.id = id;
+      }
+    
+      move() {
+        if (this.x > 400 - diam) {
+          this.nx = random(-6, 4);
+        }
+        if (this.x < 0 + diam) {
+          this.nx = random(6, 4);
+        }
+        if (this.y > 400 - diam) {
+          this.ny = random(-6, 4);
+        }
+        if (this.y < 0 + diam) {
+          this.ny = random(6, 4);
+        } else {
+          this.x += random(3, -3);
+          this.y += random(3, -3);
+        }
+        this.x += random(this.nx);
+        this.y += random(this.ny);
+      }
+      show() {
+        fill(255);
+        textSize(30);
+        text(this.t, this.x, this.y);
+        //text(this.id, this.x, this.y);
+      }
+    
+      collide(other) {
+        var d = dist(this.x, this.y, other.x, other.y);
+        if (d < this.r + other.r) {
+          return true;
+        }
+        return false;
+      }
+      whatKind(other) {
+        var kind;
+        if (
+          (this.id === "rock" && other.id === "paper") ||
+          (this.id === "paper" && other.id === "rock")
+        ) {
+          kind = "paper";
+        }
+        if (
+          (this.id === "scissors" && other.id === "paper") ||
+          (this.id === "paper" && other.id === "scissors")
+        ) {
+          kind = "scissors";
+        }
+        if (
+          (this.id === "rock" && other.id === "scissors") ||
+          (this.id === "scissors" && other.id === "rock")
+        ) {
+          kind = "rock";
+        }
+        return kind;
+      }
+    }
+    
+    class Paper extends Player {
+      constructor(t, id) {
+        super(t, id);
+      }
+    }
+    
+    class Rock extends Player {
+      constructor(t, id) {
+        super(t, id);
+      }
+    }
+    
+    class Scissors extends Player {
+      constructor(t, id) {
+        super(t, id);
+      }
+    }                         
+            
+  </code>   
+    </pre>
+      </div>
+
+      <div class="product">
+        <div id="gamestwo">
+          <script type="module" src="../js/page2/main.js"></script>
+        </div>
+      </div>
+      <div class="reflection">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="code">
+        <pre>
+    <code class="language-javascript">
+
+      var xPositions = [200, 150, 250, 300];
+      var yPositions = [0, 150, 50, 250];
+      var score = 0;
+      var snowSpeed;
+      var buttonStart;
+      var randNum;
+      var cols = ["#B64EFD", "#7946E3", "#625AFA", "#4668E3", "#4EA2FD", "#0C1DE8"];
+      function setup() {
+        createCanvas(400, 400);
+        snowSpeed = 2;
+        randNum = cols[floor(random(cols.length))];
+        buttonStart = createButton("reset");
+        buttonStart.mousePressed(resetIt);
+      }
+      
+      function draw() {
+        background(204, 247, 255);
+        drawSnow(snowSpeed);
+        scoreKeeper();
+        fill(0, 0, 0);
+        rect(mouseX, 385, 75, 15);
+      }
+      
+      function mousePressed() {
+        snowSpeed++;
+        xPositions.push(random(1, 399));
+        yPositions.push(random(1, 399));
+      }
+      
+      function drawSnow(speed) {
+        noStroke();
+        if (speed % 2 == 0) {
+          fill(randNum);
+        } else {
+          fill(0, 0, 255);
+        }
+        for (var i = 0; i < xPositions.length; i++) {
+          ellipse(xPositions[i], yPositions[i], 10, 10);
+          yPositions[i] += speed;
+      
+          if (yPositions[i] > 400) {
+            yPositions[i] = 0;
+          }
+          if (
+            yPositions[i] > 385 &&
+            xPositions[i] > mouseX &&
+            xPositions[i] < mouseX + 75
+          ) {
+            yPositions[i] = 0;
+            textSize(30);
+            text("Nice one!", mouseX, 320);
+            score++;
+          }
+          if (
+            (yPositions[i] > 385 && xPositions[i] < mouseX) ||
+            (yPositions[i] > 385 && xPositions[i] > mouseX + 75)
+          ) {
+            yPositions[i] = 0;
+            score += -1;
+          }
+        }
+      }
+      
+      function scoreKeeper() {
+        textSize(30);
+        fill(0, 0, 255);
+        text("Score: " + score, 150, 40);
+      
+        if (score >= 10) {
+          background(204, 247, 255);
+          text("Score: " + score, 150, 40);
+          textSize(30);
+          text("You win!", 150, 200);
+          noLoop();
+          fill(0, 0, 0);
+          rect(mouseX, 385, 75, 15);
+        }
+      
+        if (score <= -10) {
+          background(204, 247, 255);
+          text("Score: " + score, 150, 40);
+          textSize(20);
+          text("You lose! Better luck next time!", 70, 200);
+          noLoop();
+          fill(0, 0, 0);
+          rect(mouseX, 385, 75, 15);
+        }
+      }
+      
+      function resetIt() {
+        xPositions = [200, 150, 250, 300];
+        yPositions = [0, 150, 50, 250];
+        snowSpeed = 2;
+        score = 0;
+        randNum = cols[floor(random(cols.length))];
+        loop();
+      }
+      
+   </code>
+      </pre>
+      </div>
+
+
+      <div class="product">
+        <div id="gamesthree">
+          <script type="module" src="../js/page2/main.js"></script>
+        </div>
+      </div>
+      <div class="reflection">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </div>
+
+    </section>
+    <footer class="footer__container">
+      <div class="footer__list">
+        <ul class="footer__elements">
+          <li>Test-run the code here: <a href="https://editor.p5js.org/">p5Editor</a></li>
+          <li>2023</li>
+          <li> &copy; Reinartz</li>
+        </ul>
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+  <!-- code highlighting -->
+  <script src="../js/srcFiles/prism.js"></script>
+  <link rel="stylesheet" href="../css/prism.css" type="text/css">
+  <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="../img/struggle.jpg" class="bannerimg" alt="This is the banner">
+
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Teaching
+              <span class="arrow">&#x1f601;</span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="#">CS Classes
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="#">AP-CSP <span class="arrow">&#x25B6;</span>
+                    </a>
+                    <ul class="submenu-3">
+                      <li>
+                        <a href="#">ACPSP-Units <span class="arrow">&#x25B6;</span></a>
+                        <ul class="submenu-4">
+                          <li>
+                            <a href="#">Digital-Information</a>
+                          </li>
+                          <li>
+                            <a href="#">Internet</a>
+                          </li>
+                          <li>
+                            <a href="#">Programming</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Algorithms</a>
+                          </li>
+                          <li>
+                            <a href="#">DataAnalysis</a>
+                          </li>
+                          <li>
+                            <a href="#">Simulations</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Data Security</a>
+                          </li>
+                          <li>
+                            <a href="#">Innovations</a>
+                          </li>
+                          <li>
+                            <a href="#">Holiday Card</a>
+                          </li>
+                          <li>
+                            <a href="#">CreateTasks <span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Create Tasks</a>
+
+                              </li>
+                              <li>
+                                <a href="#">Six</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Five</a>
+                              </li>
+                              <li>
+                                <a href="#">Four</a>
+                              </li>
+
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Final Projects<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">One</a>
+                              </li>
+                              <li>
+                                <a href="#">Two</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Three</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Prep<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Global Interest</a>
+                              </li>
+                              <li>
+                                <a href="#">CreateTask Prep</a>
+                              </li>
+                              <li>
+                                <a href="#">Exam Prep</a>
+                              </li>
+                            </ul>
+                          </li>
+
+
+
+
+                          <li>
+                            <a href="#">Resources<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Khan</a>
+                              </li>
+                              <li>
+                                <a href="#">Happy Coding</a>
+                              </li>
+                              <li>
+                                <a href="#">CSForAll</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Materials</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <li>
+                    <a href="#">AP-CSA <span class="arrow">&#x25B6;</span>
+                    </a>
+                    <ul class="submenu-3">
+                      <li>
+                        <a href="#">ACPSA-Units <span class="arrow">&#x25B6;</span></a>
+                        <ul class="submenu-4">
+                          <li>
+                            <a href="#">Primitive Types</a>
+                          </li>
+                          <li>
+                            <a href="#">Objects</a>
+                          </li>
+                          <li>
+                            <a href="#">If Statements</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Iteration/Loops</a>
+                          </li>
+                          <li>
+                            <a href="#">Classes</a>
+                          </li>
+                          <li>
+                            <a href="#">Arrays</a>
+                          </li>
+
+                          <li>
+                            <a href="#">ArrayLists</a>
+                          </li>
+                          <li>
+                            <a href="#">2DArrays</a>
+                          </li>
+                          <li>
+                            <a href="#">Inheritance</a>
+                          </li>
+                          <li>
+                            <a href="#">Recursion</a>
+                          </li>
+                          <li>
+                            <a href="#">Holiday Cards <span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Holiday Cards</a>
+                              </li>
+                              <li>
+                                <a href="#">One</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Two</a>
+                              </li>
+                              <li>
+                                <a href="#">Three</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Prep<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">Released Exams</a>
+                              </li>
+                              <li>
+                                <a href="#">FRQ</a>
+                              </li>
+                              <li>
+                                <a href="#">Tips</a>
+                              </li>
+                              <li>
+                                <a href="#">Final Projects</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">Resources<span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">AP-Classroom</a>
+
+                              </li>
+                              <li>
+                                <a href="#">Runestone</a>
+                              </li>
+
+                              <li>
+                                <a href="#">CodingBat</a>
+                              </li>
+
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Materials</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">ACS/Data-Structures <span class="arrow">&#x25B6;</span>
+                    </a>
+                    <ul class="submenu-3">
+                      <li>
+                        <a href="#">ACS-Units <span class="arrow">&#x25B6;</span></a>
+                        <ul class="submenu-4">
+                          <li>
+                            <a href="#">Pixels</a>
+                          </li>
+                          <li>
+                            <a href="#">HTML/CSS</a>
+                          </li>
+                          <li>
+                            <a href="#">Motion/p5js</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Lightning</a>
+                          </li>
+                          <li>
+                            <a href="#">Dice/Objects</a>
+                          </li>
+                          <li>
+                            <a href="#">Chemotaxis/Arrays</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Starfield/Inheritance</a>
+                          </li>
+                          <li>
+                            <a href="#">Strings/RegEx</a>
+                          </li>
+                          <li>
+                            <a href="#">Readability</a>
+                          </li>
+
+                          <li>
+                            <a href="#">Holiday Card</a>
+                          </li>
+                          <li>
+                            <a href="#">BREAK <span class="arrow">&#x25B6;</span></a>
+                            <ul class="submenu-break">
+                              <li>
+                                <a href="#">BREAK</a>
+
+                              </li>
+                              <li>
+                                <a href="#">Collections</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Interfaces/Iterators</a>
+                              </li>
+                              <li>
+                                <a href="#">NLP:MovieReview</a>
+                              </li>
+                              <li>
+                                <a href="#">Sets</a>
+                              </li>
+
+                              <li>
+                                <a href="#">BigO</a>
+                              </li>
+                              <li>
+                                <a href="#">Maps</a>
+                              </li>
+                              <li>
+                                <a href="#">Markov Chains</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Data: Cemetery</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Recursion</a>
+                              </li>
+                              <li>
+                                <a href="#">Stacks/Queues</a>
+                              </li>
+                              <li>
+                                <a href="#">Heaps</a>
+                              </li>
+
+                              <li>
+                                <a href="#">Linked Lists</a>
+                              </li>
+                              <li>
+                                <a href="#">Trees</a>
+                              </li>
+                              <li>
+                                <a href="#">Graphs</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Materials</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Language Arts
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">American Lit</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Journalism</a>
+                  </li>
+                  <li>
+                    <a href="#">Film</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+
+
+              <li>
+                <a href="#">Resources
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+
+                  <li>
+                    <a href="https://p5js.org/reference/">P5 API</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=HerCR8bw_GE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA">P5Videotutorials</a>
+                  </li>
+                  <li>
+                    <a href="https://happycoding.io/">Happy Coding</a>
+                  </li>
+                  <li>
+                    <a href="https://processing.org/">Processing</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Projects
+              <span class="arrow">&#x25BC;</span>
+            </a>
+            <ul class="submenu">
+
+              <li>
+                <a href="#">Things
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="page1.html">Circles-1</a>
+                  </li>
+                  <li>
+                    <a href="circles2.html">Circles-2</a>
+                  </li>
+                  <li>
+                    <a href="page2.html">Games</a>
+                  </li>
+                  <li>
+                    <a href="page3.html">Lines/Curves</a>
+                  </li>
+                  <li>
+                    <a href="page4.html">Recursion</a>
+                  </li>
+                  <li>
+                    <a href="#">2DArrays/Matricies</a>
+                  </li>
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="#">Data Structures
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="#">Sets</a>
+                  </li>
+                  <li>
+                    <a href="#">Maps</a>
+                  </li>
+                  <li>
+                    <a href="stacks.html">Stacks</a>
+                  </li>
+                  <li>
+                    <a href="#">Queues/Priority-Queues</a>
+                  </li>
+                  <li>
+                    <a href="linkedlists.html">Linked Lists</a>
+                  </li>
+                  <li>
+                    <a href="#">Trees</a>
+                  </li>
+                  <li>
+                    <a href="#">Heaps</a>
+                  </li>
+                  <li>
+                    <a href="#">Graphs</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Data
+              <span class="arrow">&#x1f601;</span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Data Science</a>
+              </li>
+              <li>
+                <a href="#">Data Structures</a>
+              </li>
+
+
+
+
+
+              <li>
+                <a href="#">Data Viz
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="#">Graphs</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Charts</a>
+                  </li>
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Data Journalism</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Math
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">GeoDaily</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Trigonometry</a>
+                  </li>
+                  <li>
+                    <a href="#">Calculus</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <li>
+            <a href="#">Generative Art
+              <span class="arrow">&#x1f601;</span>
+            </a>
+            <ul class="submenu">
+
+              <li>
+                <a href="#">Ideas
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Shape</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Color</a>
+                  </li>
+                  <li>
+                    <a href="#">Typography</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://observablehq.com/collection/@anjana/functional-javascript-first-steps">Functional</a>
+                  </li>
+
+
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="#">Algorithms
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Patterns</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Matricies</a>
+                  </li>
+                  <li>
+                    <a href="#">Change</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Artists
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Sol LeWitt</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Josef Albers</a>
+                  </li>
+                  <li>
+                    <a href="#">Piet Mondrian</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="#">Resources
+                  <span class="arrow">&#x25B6;</span>
+                </a>
+                <ul class="submenu-2">
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">GeoDaily</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Trigonometry</a>
+                  </li>
+                  <li>
+                    <a href="#">Calculus</a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+
+
+          <li>
+            <a href="#">About Me<span class="arrow">&#x1f601;</span></a>
+
+
+            <ul class="submenu">
+              <li>
+                <a href="#">Swim</a>
+              </li>
+              <li>
+                <a href="#">Bike</a>
+              </li>
+              <li>
+                <a href="https://observablehq.com/collection/@anjana/functional-javascript-first-steps">Bikes</a>
+              </li>
+              <li>
+                <a href="https://computiful.org/foreword/">Read</a>
+              </li>
+
+              <li>
+                <a href="#"> <span class="arrow">&#x25C0;</span>Photography
+
+                </a>
+                <ul class="submenu-left">
+                  <li>
+                    <a href="#">Glacier</a>
+                  </li>
+                  <li>
+                    <a href="https://generativeartistry.com/">Tucson</a>
+                  </li>
+                  <li>
+                    <a href="https://geometrydaily.tumblr.com/">Birds</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <section class="wrapper">
+      <div class="code">
+        <pre>
+  <code class="language-javascript">
+    
+    var xscl;
+    var yscl;
+    var rangex;
+    var rangey;
+    var xmin;
+    var ymin;
+    var xmax;
+    var ymax;
+    var m;
+    var b;
+    var x;
+    var y;
+    var d;
+    var nums;
+    var lin;
+    var num;
+    var t;
+    var i;
+    var r, g, b;
+    var diam;
+    var offset;
+    var x5;
+    var y5;
+    var buttonStart;
+    var cols;
+    function setup() {
+      createCanvas(400, 400);
+      j = 0;
+      angleMode(DEGREES);
+      colorMode(HSB);
+      cols=[60, 80, 100, 120, 140, 160,180, 200, 220, 240, 260, 280, 300, 320, 340, 360];
+      diam = 150;
+      offset = 0.2 * diam;
+      x5 = width / 2;
+      y5 = height / 2;
+      resetIt();
+    
+      buttonStart = createButton("reset");
+      buttonStart.mousePressed(resetIt);
+    }
+    
+    function draw() {
+      background(0, 0, 70);
+      if (j < 1) {
+        smilyFace();
+      }
+      translate(width / 2, height / 2);
+      drawGrid();
+      drawDots();
+    }
+    
+    function drawDots() {
+      if (frameCount % 120 == 0) {
+        var x3 = lin[j].x3;
+        var y3 = lin[j].y3;
+        var x1 = random(nums);
+        var y1 = random(nums);
+        lin.push(new Lin(x3, y3, x1, y1));
+        j += 1;
+      }
+      for (var k = 0; k < lin.length - 1; k += 1) {
+        if (lin.length > 1) {
+          lin[k].display();
+        }
+      }
+    }
+    
+    function drawGrid() {
+      stroke(0);
+      strokeWeight(1);
+    
+      for (let i = xmin; i <= xmax + 1; i++) {
+        line(i * xscl, ymin * yscl, i * xscl, ymax * yscl);
+        text(i, i * xscl, 0);
+      }
+      for (let i = ymin; i <= ymax + 1; i++) {
+        line(xmin * xscl, i * yscl, xmax * xscl, i * yscl);
+        text(i, 0, i * yscl);
+      }
+      stroke(0);
+      line(0, ymin * yscl, 0, ymax * yscl);
+      line(xmin * xscl, 0, xmax * xscl, 0);
+    }
+    
+    class Lin {
+      constructor(x1, y1, x3, y3) {
+        this.x1 = x1;
+        this.y1 = y1;
+        this.x2 = x1;
+        this.y2 = y1;
+        this.x3 = x3;
+        this.y3 = y3;
+        this.c = random(cols);
+        console.log("this "+this.c)
+      }
+      display() {
+        stroke(this.c, 100, 100);
+        strokeWeight(4);
+        noFill();
+        ellipse(this.x3, this.y3, 20, 20);
+        fill(this.c, 100, 100);
+    
+        ellipse(this.x1, this.y1, 10, 10);
+        ellipse(this.x2, this.y2, 5, 5);
+        this.x1 += (this.x3 - this.x1) * 0.1;
+        this.y1 += (this.y3 - this.y1) * 0.1;
+        line(this.x1, this.y1, this.x2, this.y2);
+        var d = dist(this.x1, this.y1, this.x3, this.y3);
+        if (d < 10) {
+          this.c = 360;
+        }
+      }
+    }
+    function resetIt() {
+      nums = [];
+      lin = [];
+      xmax = 10;
+      ymax = 10;
+      xmin = -10;
+      ymin = -10;
+      t = 0;
+      j = 0;
+      r = random(cols);
+      console.log(r)
+      g = 0;
+      b = 0;
+      num = 30;
+      x = xmin;
+      rangex = xmax - xmin;
+      rangey = ymax - ymin;
+    
+      xscl = width / rangex;
+      yscl = -height / rangey;
+      for (var i = -180; i < 180; i += 20) {
+        nums.push(i);
+      }
+    
+      var x1 = random(nums);
+      var y1 = random(nums);
+      var x2 = random(nums);
+      var y2 = random(nums);
+      lin.push(new Lin(x1, y1, x2, y2));
+    
+      console.log(lin[j].x3);
+    }
+    function smilyFace() {
+      fill(50, 100, 100);
+      ellipse(x5, y5, diam, diam);
+    
+      fill(r, g, b);
+      ellipse(x5 - offset, y5 - offset, diam / 7, diam / 7);
+      ellipse(x5 + offset, y5 - offset, diam / 7, diam / 7);
+      noFill();
+      arc(x5, y5, diam * 0.6, diam * 0.4, 0, 180);
+    }
+    function mousePressed() {
+      resetIt();
+    }
+    
+  </code>   
+    </pre>
+      </div>
+
+      <div class="product">
+        <div id="graph1">
+          <script type="module" src="../js/page3/graph1/main3.js"></script>
+        </div>
+      </div>
+      <div class="reflection">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est
+        laborum.
+
+      </div>
+    </section>
+    <section class="wrapper">
+      <div class="code">
+        <pre>
+  <code class="language-javascript">
+    let rootOne = "";
+    let rootTwo = "";
+    let rootThree = "";
+    let randNum = 1;
+    let xmin = -10;
+    let xmax = 10;
+    let newPtsx = [];
+    let newPtsy = [];
+    //range of y-values
+    let ymin = -10;
+    let ymax = 10;
+    let x = xmin;
+    //calculate the range
+    let rangex = xmax - xmin;
+    let rangey = ymax - ymin;
+    let xscl, yscl;
+    let midpt = 0;
+    var count = 0;
+    let graphType = "";
+    var buttonStart;
+    
+    function setup() {
+      createCanvas(400, 400);
+      //var root1 = getRoots(0, 1);
+      //var root2 = getRoots(3, 4);
+    
+      xscl = width / rangex;
+      yscl = -height / rangey;
+      randNum = floor(random(1, 9));
+    
+      buttonStart = createButton("reset");
+      buttonStart.mousePressed(resetIt);
+    }
+    
+    function draw() {
+      background(255);
+      translate(width / 2, height / 2);
+      grid(xscl, yscl);
+    
+      noFill();
+      strokeWeight(2);
+      stroke(255, 0, 0);
+      graphFunction();
+    }
+    
+    function f(x) {
+      console.log(randNum);
+      if (randNum == 1) {
+        graphType = "polynomial";
+        return 6 * x ** 3 + 19 * x ** 2 + 3 * x - 10;
+      } else if (randNum == 2) {
+        graphType = "wrong quadratic";
+        return pow(2 * x, 2) - 8 * x + 3; //quadratic--this is wrong
+      } else if (randNum == 3) {
+        graphType = "quadratic";
+        return 2 * x ** 2 - 8 * x + 3; //quadratic--this is right
+      } else if (randNum == 4) {
+        graphType = "cubic";
+        return pow(x, 3) - 4 * x; //cubic
+      } else if (randNum == 5) {
+        graphType = "exponential";
+        return pow(2, x); //exponential
+      } else if (randNum == 6) {
+        graphType = "cubic";
+        return 2 * (x + 1) ** 3 - 1; //cubic
+      } else if (randNum == 7) {
+        graphType = "to the 8th";
+        return 1 - (1 - x) ** 8;
+      } else if (randNum == 8) {
+        graphType = "x to less than one";
+        return x ** 0.125;
+      } else if (randNum == 9) {
+        graphType = "x to less than one";
+        return sin(x);
+      }
+    }
+    
+    function graphFunction() {
+      var x1 = x * xscl;
+      var y1 = f(x) * yscl;
+      var x2 = (x + 0.1) * xscl;
+      var y2 = f(x + 0.1) * yscl;
+    
+      x += 0.1;
+    
+      newPtsx.push(createVector(x1, y1));
+      newPtsy.push(createVector(x2, y2));
+    
+      stroke(0, 0, 255);
+      strokeWeight(4);
+      if (newPtsx.length > 1) {
+        for (var i = 0; i < newPtsx.length; i++) {
+          line(newPtsx[i].x, newPtsx[i].y, newPtsy[i].x, newPtsy[i].y);
+        }
+      }
+      //getRoots
+      stroke(1);
+      strokeWeight(2);
+      if (y1 < 4 && y1 > -4) {
+        count += 1;
+        if (count == 1) {
+          var result1 = round(100 * x) / 100;
+          rootOne = result1;
+        }
+        if (count == 2) {
+          var result2 = round(100 * x) / 100;
+          rootTwo = result2;
+        }
+        if (count == 3) {
+          var result3 = round(100 * x) / 100;
+          rootThree = result3;
+        }
+      }
+      text("Root1: " + rootOne, -200, 50);
+      text("Root2: " + rootTwo, -200, 75);
+      text("Root3: " + rootThree, -200, 100);
+      text("Graphtype: " + graphType, -200, 125);
+    }
+    
+    function grid(xscl, yscl) {
+      strokeWeight(1);
+      textSize(20);
+      stroke(0, 255, 255);
+      for (let i = xmin; i <= xmax + 1; i++) {
+        line(i * xscl, ymin * yscl, i * xscl, ymax * yscl);
+        text(i, i * xscl, 0);
+      }
+      for (let i = ymin; i <= ymax + 1; i++) {
+        line(xmin * xscl, i * yscl, xmax * xscl, i * yscl);
+        text(i, 0, i * yscl);
+      }
+      stroke(0);
+      line(0, ymin * yscl, 0, ymax * yscl);
+      line(xmin * xscl, 0, xmax * xscl, 0);
+    }
+    function startGraph() {
+      xmin = -10;
+      xmax = 10;
+      newPtsx = [];
+      newPtsy = [];
+      //range of y-values
+      ymin = -10;
+      ymax = 10;
+      x = xmin;
+      //calculate the range
+      rangex = xmax - xmin;
+      rangey = ymax - ymin;
+      xscl, yscl;
+      // on = false;
+      xscl = width / rangex;
+      yscl = -height / rangey;
+      count = 0;
+      rootOne = "";
+      rootTwo = "";
+      rootThree = "";
+      randNum = floor(random(1, 9));
+      graphType = "";
+    }
+    
+    //used in setup
+    function average(a, b) {
+      return (a + b) / 2;
+    }
+    function getRoots(num1, num2) {
+      var lower = num1;
+      var upper = num2;
+      var midpt = 0;
+    
+      for (var i = 0; i < 20; i++) {
+        midpt = average(lower, upper);
+        if (lower < 0) {
+          if (midpt == 0) {
+            return midpt;
+          } else if (f(midpt) < 0) {
+            upper = midpt;
+          } else {
+            lower = midpt;
+          }
+        } else if (lower > 0) {
+          if (midpt == 0) {
+            return midpt;
+          } else if (f(midpt) > 0) {
+            upper = midpt;
+          } else {
+            lower = midpt;
+          }
+        }
+      }
+      return midpt;
+    }
+    
+    function resetIt() {
+      startGraph();
+      randNum = floor(random(1, 9));
+    }
+    
+    
+  </code>   
+    </pre>
+      </div>
+
+      <div class="product">
+        <div id="graph2">
+          <script type="module" src="../js/page3/graph2/main3.js"></script>
+        </div>
+      </div>
+      <div class="reflection">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est
+        laborum.
+
+      </div>
+    </section>
+    <section class="wrapper">
+      <div class="code">
+        <pre>
+    <code class="language-javascript">
+      var x1;
+      var y1;
+      var x2;
+      var y2;
+      var pt;
+      var pts = [];
+      var newPts = [];
+      var newX = 0;
+      var newY = 0;
+      var m;
+      var b;
+      var numDots;
+      var rm;
+      var bm;
+      var on = false;
+      var fr = 2;
+      var r;
+      var g;
+      var b;
+      var x;
+      var y;
+      var newArr = [];
+      var keepPoints = [];
+      var sl = [];
+      function setup() {
+        createCanvas(400, 400);
+        colorMode(HSB);
+        r = 360;
+        g = 100;
+        b = 100;
+        resetIt();
+      }
+      
+      function draw() {
+        background(0, 0, 60);
+        translate(width / 2, height / 2);
+        var d = dist(x1, y1, x2, y2);
+        for (var i = 0; i <= d; i += 10) {
+          var nx = ler(x1, x2, i / d);
+          var ny = ler(y1, y2, i / d);
+          fill((255 * i) / d, 255, 255);
+          ellipse(nx, ny, 10, 10);
+        }
+        x1 = ler(x1, x2, 3 / d);
+        y1 = ler(y1, y2, 3 / d);
+        newPts.push(new P(x1, y1, r, g, b));
+        newArr.push(new P(x1, y1, r, g, b));
+        if (newPts.length > -1) {
+          for (var i = 0; i < newPts.length; i++) {
+            newPts[i].display();
+          }
+        }
+        if (newArr.length > -1) {
+          for (var i = 0; i < newArr.length; i++) {
+            newArr[i].display();
+          }
+        }
+        if (sl.length > 1) {
+          for (var i = 0; i < sl.length; i++) {
+            sl[i].display();
+          }
+        }
+        pt.display();
+        if (x1 > x2 - 5) {
+          if (frameCount % 120 == 0) {
+            resetIt();
+          }
+        }
+        strokeWeight(1);
+        stroke(0);
+        line(0, -350, 0, 350);
+        line(-350, 0, 350, 0);
+      
+        textSize(20);
+        text("slope: " + rm, -350, -350);
+        text("y intercept: " + bm, -350, -350);
+      }
+      function resetIt() {
+        r = random(10, 360);
+        g = random(95, 100);
+        b = random(95, 100);
+        x1 = floor(random(-150, 150));
+        y1 = floor(random(-150, 150));
+        x2 = floor(random(-150, 150));
+        y2 = floor(random(-150, 150));
+        sl.push(new ShowLines(x1, y1, x2, y2, rm, bm));
+        newPts = [];
+        pt = new Pt(x1, y1, x2, y2);
+        m = (y2 - y1) / (x2 - x1);
+        rm = Math.round(m * 100.0) / 100;
+        rm = rm * -1;
+        b = y1 - m * x1;
+        bm = Math.round(b * 100.0) / 100;
+      }
+      function ler(v0, v1, t) {
+        return (1 - t) * v0 + t * v1;
+      }
+      function ler2(x1, x2, y1, y2, t) {
+        var y = y1 + ((t - x1) * (y2 - y1)) / (x2 - x1);
+        return y;
+      }
+      class ShowLines {
+        constructor(x1, y1, x2, y2, sl, inter) {
+          this.x1 = x1;
+          this.y1 = y1;
+          this.x2 = x2;
+          this.y2 = y2;
+          this.sl = sl;
+          this.inter = inter;
+          this.midx = (x2 - x1) / 2;
+          this.midy = (y2 - y1) / 2;
+        }
+        display() {
+          fill(255);
+          noStroke();
+          textSize(18);
+        }
+      }
+      class P {
+        constructor(x, y, r, g, b) {
+          this.x = x;
+          this.y = y;
+          this.r = r;
+          this.b = b;
+          this.g = g;
+        }
+        display() {
+          stroke(this.r, this.g, this.b);
+          strokeWeight(6);
+          point(this.x, this.y);
+        }
+      }
+      class Pt {
+        constructor(x1, y1, x2, y2) {
+          this.x1 = x1;
+          this.y1 = y1;
+          this.x2 = x2;
+          this.y2 = y2;
+          this.pts = [];
+        }
+        display() {
+          fill(0, 0, 255);
+          //ellipse(this.x1, this.y1, 10, 10);
+          //ellipse(this.x2, this.y2, 10, 10);
+          strokeWeight(9);
+          point(this.x1, this.y1);
+          point(this.x2, this.y2);
+      
+          noStroke();
+          textSize(16);
+          text("x1: " + this.x1 + ",  y1: " + this.y1, this.x1 - 15, this.y1 - 10);
+          text("x2: " + this.x2 + ",  y2: " + this.y2, this.x2 - 15, this.y2 - 10);
+        }
+      }
+
+   </code>
+      </pre>
+      </div>
+      <div class="product">
+        <div id="graph3runner">
+          <script type="module" src="../js/page3/graph3/main.js"></script>
+        </div>
+      </div>
+      <div class="reflection">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est
+        laborum.
+      </div>
+    </section>
+
+  </div>
+  <footer class="footer__container">
+    <div class="footer__list">
+      <ul class="footer__elements">
+        <li>Test-run the code here: <a href="https://editor.p5js.org/">p5Editor</a></li>
+        <li>2023</li>
+        <li> &copy; Reinartz</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

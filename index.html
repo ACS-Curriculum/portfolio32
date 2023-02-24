@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <meta name="description" content="This page is about...for search engines">
+    <meta name="author" content="your site name here for search engines">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <!-- code highlighting -->
+    <script src="js/scrFiles/prism.js"></script>
+    <link rel="stylesheet" href="css/prism.css" type="text/css">
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/header.png" class="bannerimg" alt="This is the banner">
+            <nav id="main-nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Teaching
+                            <span class="arrow">&#x1f601;</span>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">CS Classes
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="#">AP-CSP <span class="arrow">&#x25B6;</span>
+                                        </a>
+                                        <ul class="submenu-3">
+                                            <li>
+                                                <a href="#">ACPSP-Units <span class="arrow">&#x25B6;</span></a>
+                                                <ul class="submenu-4">
+                                                    <li>
+                                                        <a href="#">Digital-Information</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Internet</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Programming</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Algorithms</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">DataAnalysis</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Simulations</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Data Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Innovations</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Holiday Card</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">CreateTasks <span class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">Create Tasks</a>
+
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Six</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Five</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Four</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Final Projects<span
+                                                                class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">One</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Two</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Three</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Prep<span class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">Global Interest</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">CreateTask Prep</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Exam Prep</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+
+
+
+                                                    <li>
+                                                        <a href="#">Resources<span class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">Khan</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Happy Coding</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">CSForAll</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Materials</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Projects</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="#">AP-CSA <span class="arrow">&#x25B6;</span>
+                                        </a>
+                                        <ul class="submenu-3">
+                                            <li>
+                                                <a href="#">ACPSA-Units <span class="arrow">&#x25B6;</span></a>
+                                                <ul class="submenu-4">
+                                                    <li>
+                                                        <a href="#">Primitive Types</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Objects</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">If Statements</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Iteration/Loops</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Classes</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Arrays</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">ArrayLists</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">2DArrays</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Inheritance</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Recursion</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Holiday Cards <span
+                                                                class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">Holiday Cards</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">One</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Two</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Three</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Prep<span class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">Released Exams</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">FRQ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Tips</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Final Projects</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Resources<span class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">AP-Classroom</a>
+
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Runestone</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">CodingBat</a>
+                                                            </li>
+
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Materials</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Projects</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">ACS/Data-Structures <span class="arrow">&#x25B6;</span>
+                                        </a>
+                                        <ul class="submenu-3">
+                                            <li>
+                                                <a href="#">ACS-Units <span class="arrow">&#x25B6;</span></a>
+                                                <ul class="submenu-4">
+                                                    <li>
+                                                        <a href="#">Pixels</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">HTML/CSS</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Motion/p5js</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Lightning</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Dice/Objects</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Chemotaxis/Arrays</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Starfield/Inheritance</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Strings/RegEx</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Readability</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Holiday Card</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">BREAK <span class="arrow">&#x25B6;</span></a>
+                                                        <ul class="submenu-break">
+                                                            <li>
+                                                                <a href="#">BREAK</a>
+
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Collections</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Interfaces/Iterators</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">NLP:MovieReview</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Sets</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">BigO</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Maps</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Markov Chains</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Data: Cemetery</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Recursion</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Stacks/Queues</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Heaps</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="#">Linked Lists</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Trees</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Graphs</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Materials</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Projects</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">Language Arts
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">American Lit</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Journalism</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Film</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+
+
+                            <li>
+                                <a href="#">Resources
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+
+                                    <li>
+                                        <a href="https://p5js.org/reference/">P5 API</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.youtube.com/watch?v=HerCR8bw_GE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA">P5Videotutorials</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://happycoding.io/">Happy Coding</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://processing.org/">Processing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">Projects
+                            <span class="arrow">&#x25BC;</span>
+                        </a>
+                        <ul class="submenu">
+
+                            <li>
+                                <a href="#">Things
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="pages/page1.html">Circles-1</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/circles2.html">Circles-2</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/page2.html">Games</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/page3.html">Lines/Curves</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/page4.html">Recursion</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">2DArrays/Matricies</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="#">Data Structures
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="#">Sets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Maps</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/stacks.html">Stacks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Queues/Priority-Queues</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/linkedlists.html">Linked Lists</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Trees</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Heaps</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Graphs</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">Data
+                            <span class="arrow">&#x1f601;</span>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Data Science</a>
+                            </li>
+                            <li>
+                                <a href="#">Data Structures</a>
+                            </li>
+
+
+
+
+
+                            <li>
+                                <a href="#">Data Viz
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="#">Graphs</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Charts</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">Data Journalism</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">Math
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">GeoDaily</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Trigonometry</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Calculus</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="#">Generative Art
+                            <span class="arrow">&#x1f601;</span>
+                        </a>
+                        <ul class="submenu">
+
+                            <li>
+                                <a href="#">Ideas
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">Shape</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Color</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Typography</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://observablehq.com/collection/@anjana/functional-javascript-first-steps">Functional</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="#">Algorithms
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">Patterns</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Matricies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Change</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">Artists
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">Sol LeWitt</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Josef Albers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Piet Mondrian</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="#">Resources
+                                    <span class="arrow">&#x25B6;</span>
+                                </a>
+                                <ul class="submenu-2">
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">GeoDaily</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Trigonometry</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Calculus</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="#">About Me<span class="arrow">&#x1f601;</span></a>
+
+
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Swim</a>
+                            </li>
+                            <li>
+                                <a href="#">Bike</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://observablehq.com/collection/@anjana/functional-javascript-first-steps">Bikes</a>
+                            </li>
+                            <li>
+                                <a href="https://computiful.org/foreword/">Read</a>
+                            </li>
+
+                            <li>
+                                <a href="#"> <span class="arrow">&#x25C0;</span>Photography
+
+                                </a>
+                                <ul class="submenu-left">
+                                    <li>
+                                        <a href="#">Glacier</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://generativeartistry.com/">Tucson</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://geometrydaily.tumblr.com/">Birds</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <div class="image-grid">
+                <img src="img/somePhotos/one.jpg" alt="puzzle">
+                <img src="img/somePhotos/two.jpg" alt="shirt">
+                <img src="img/somePhotos/three.jpg" alt="dunns">
+                <img src="img/somePhotos/four.jpg" alt="photo">
+                <img src="img/somePhotos/five.jpg" alt="photo">
+                <img src="img/somePhotos/six.jpg" alt="photo">
+                <img src="img/somePhotos/seven.jpg" alt="photo">
+                <img src="img/somePhotos/nine.jpg" alt="photo">
+                <img src="img/somePhotos/ten.jpg" alt="photo">
+                <img src="img/somePhotos/eleven.jpg" alt="photo">
+                <img src="img/somePhotos/twelve.jpg" alt="photo">
+                <img src="img/somePhotos/thirteen.jpg" alt="photo">
+            </div>
+        </main>
+
+    </div>
+    <footer class="footer__container">
+        <div class="footer__list">
+            <ul class="footer__elements">
+                <li>Test-run the code here: <a href="https://editor.p5js.org/">p5Editor</a></li>
+                <li>2023</li>
+                <li> &copy; Reinartz</li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+
+</html>
